@@ -4,5 +4,3 @@
  
  * Change the following in your `mysite/config.yml` file.  Change `theme: 'simple' to 'solid-silver'.
 
-		SSViewer::set_theme("solid-silver");
-		HtmlEditorConfig::get('cms')->setOption('theme_advanced_styles', 'highlight=highlight;no-border=no-border,break=break');
