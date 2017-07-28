@@ -1,4 +1,4 @@
-{
+	{
     "name": "silverstripe-themes/Solid Silver",
     "description": "Silverstripe Bootstrap Theme",
     "type": "silverstripe-theme",
@@ -10,21 +10,21 @@
             "name": "Dieter Fourie",
             "homepage": "http://www.digitaltree.co.nz"
         }
-    ],
-    	  "support": {
+	  ],
+	  "support": {
 	    "issues": "https://github.com/Dieter-Fourie/Solid-Silver/issues"
 	  },
-    "require": {
-        "composer/installers": "*",
-        "silverstripe/framework": ">=3.0"
-    }
+	  "require": {
+	    "silverstripe/cms": "~3.0",
+	    "silverstripe/framework": "~3.0"
+	  },
 	  "extra": {
+	    "installer-name": "elastica",
 	    "screenshots": [
 	      "solid-silver.png",
 	    ]
 	  }
-
- }
-
+	}	
+		
 	
 		
