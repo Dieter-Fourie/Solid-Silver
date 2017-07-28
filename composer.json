@@ -2,7 +2,8 @@
     "name": "silverstripe-themes/Solid Silver",
     "description": "Silverstripe Bootstrap Theme",
     "type": "silverstripe-theme",
-    "keywords": ["silverstripe", "theme"],
+    "homepage": "https://github.com/Dieter-Fourie/Solid-Silver",
+    "keywords": ["silverstripe", "theme" , "Bootstrap"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -10,8 +11,20 @@
             "homepage": "http://www.digitaltree.co.nz"
         }
     ],
+    	  "support": {
+	    "issues": "https://github.com/Dieter-Fourie/Solid-Silver/issues"
+	  },
     "require": {
         "composer/installers": "*",
         "silverstripe/framework": ">=3.0"
     }
-}
+	  "extra": {
+	    "screenshots": [
+	      "solid-silver.png",
+	    ]
+	  }
+
+ }
+
+	
+		
