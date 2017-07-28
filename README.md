@@ -17,7 +17,6 @@
 
 # Add the following to 'Page_Controller.php' : 
 
-
 <?php
 
 class Page_Controller extends ContentController
