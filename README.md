@@ -1,7 +1,7 @@
 # Using the Solid Silver Theme
 
 <p align="center">
-<img src="http://i1.wp.com/blacktie.co/wp-content/uploads/2015/08/solid700.png"
+<img src="solid-silver.png"
 </p>
 
  * Copy the theme into the `themes/` directory of your SilverStripe project.  If you've named it correctly, there should be a directory called `themes/solid-silver/templates`.
