@@ -100,7 +100,7 @@ return $fields;
     
 }
 
-##########################################################################################################
+
 
 # Add the following to 'AboutPage.php':
 
@@ -168,7 +168,7 @@ class AboutPage_Controller extends Page_Controller {
 
 }
 
-##########################################################################################################
+
 
 # Add the following to 'PorfoilioPage.php':
 
@@ -185,7 +185,7 @@ class PortfolioPage_Controller extends Page_Controller {
 
 }
 
-##########################################################################################################
+
 
 # Add the following to 'PortfolioItem.php':
 
@@ -243,7 +243,7 @@ class PortfolioItem_Controller extends Page_Controller {
 
 }
 
-##########################################################################################################
+
 
 # Add the following to 'ContactPage.php':
 
