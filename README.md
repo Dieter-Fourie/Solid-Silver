@@ -15,7 +15,7 @@
  
 
 
-# Add the following to 'Page_Controller.php' : 
+* Add the following to 'Page_Controller.php' : 
 
 <?php
 
@@ -63,7 +63,7 @@ class Page_Controller extends ContentController
 }
 
 
-# Add the following to 'Page.php'
+* Add the following to 'Page.php'
 
 
 <?php
@@ -101,7 +101,7 @@ return $fields;
 
 
 
-# Add the following to 'AboutPage.php':
+* Add the following to 'AboutPage.php':
 
 <?php
     
@@ -169,7 +169,7 @@ class AboutPage_Controller extends Page_Controller {
 
 
 
-# Add the following to 'PorfoilioPage.php':
+* Add the following to 'PorfoilioPage.php':
 
 <?php
     
@@ -186,7 +186,7 @@ class PortfolioPage_Controller extends Page_Controller {
 
 
 
-# Add the following to 'PortfolioItem.php':
+* Add the following to 'PortfolioItem.php':
 
 <?php
     
@@ -244,7 +244,7 @@ class PortfolioItem_Controller extends Page_Controller {
 
 
 
-# Add the following to 'ContactPage.php':
+* Add the following to 'ContactPage.php':
 
 <?php
     
