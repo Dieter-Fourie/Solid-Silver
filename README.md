@@ -16,9 +16,9 @@
 
 
 
-## Add the following to 'Page_Controller.php': ##
+# Add the following to 'Page_Controller.php': 
 
-
+```php
 <?php
 
 class Page_Controller extends ContentController
@@ -62,12 +62,13 @@ class Page_Controller extends ContentController
 }
    
     
-}
+} ]
 
+```
 
-## Add the following to 'Page.php': ##
+# Add the following to 'Page.php':
 
-
+```php
 <?php
 
 class Page extends SiteTree
@@ -101,10 +102,11 @@ return $fields;
     
 }
 
+```
 
+# Add the following to 'AboutPage.php':
 
-## Add the following to 'AboutPage.php': ##
-
+```php
 <?php
     
 class AboutPage extends Page {
@@ -168,10 +170,12 @@ return $fields;
 class AboutPage_Controller extends Page_Controller {
 
 }
+```
 
 
-## Add the following to 'PorfoilioPage.php': ##
+# Add the following to 'PorfoilioPage.php':
 
+```php
 <?php
     
 class PortfolioPage extends Page {
@@ -184,11 +188,12 @@ class PortfolioPage extends Page {
 class PortfolioPage_Controller extends Page_Controller {
 
 }
+```
 
 
+# Add the following to 'PortfolioItem.php': 
 
-## Add the following to 'PortfolioItem.php': ##
-
+```php
 <?php
     
 class PortfolioItem extends Page {
@@ -242,11 +247,12 @@ return $fields;
 class PortfolioItem_Controller extends Page_Controller {
 
 }
+```
 
 
+# Add the following to 'ContactPage.php': 
 
-## Add the following to 'ContactPage.php': ##
-
+```php
 <?php
     
 class ContactPage extends Page {
@@ -313,4 +319,4 @@ class ContactPage_Controller extends Page_Controller {
     }
     
 }
-
+```
