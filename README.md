@@ -328,6 +328,76 @@ class ContactPage_Controller extends Page_Controller {
 # Build Database: 
 
 ```
-http://localhost/ss_solid1/dev/build/?flush
+Add this in your browser address bar: http://localhost/yoursite/dev/build/?flush
+
+```
+
+# Setup Home Page on CMS : 
+
+```
+Go to the admin page: http://localhost/yoursite/admin to access CMS.
+
+Select 'Home page' > Click on 'Settings' > Select 'Home Page" from 'Page type' dropdown list.
+
+Click on 'Content' > Change 'Page name' to 'Home' >
+
+Add the following in 'Services1':
+
+<i class="fa fa-heart-o"></i>
+<h4>Handsomely Crafted</h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p><br><a href="about-us" class="btn btn-theme ss-broken">More Info</a></p>.
+
+Add the following in 'Services2':
+
+<i class="fa fa-flask"></i>
+<h4>Retina Ready</h4>              
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p><br><a href="portfolio-page" class="btn btn-theme ss-broken">More Info</a></p>
+
+Add the following in 'Services3':
+
+<i class="fa fa-trophy"></i>
+<h4>Quality Theme</h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p><br><a href="contact-us" class="btn btn-theme ss-broken">More Info</a></p>            
+
+Add the following in 'More About':
+
+<h4>More About Our Agency.</h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+<p><br><a href="about-us" class="btn btn-theme">More Info</a></p>
+
+Add the following in 'FAQ':
+
+<h4>Frequently Asked</h4>
+<div class="hline"></div>
+<p><a href="#" class="ss-broken">How cool is this theme?</a></p>
+<p><a href="#" class="ss-broken">Need a nice good-looking site?</a></p>
+<p><a href="#" class="ss-broken">Is this theme retina ready?</a></p>
+<p><a href="#" class="ss-broken">Which version of Font Awesome uses?</a></p>
+<p><a href="#" class="ss-broken">Free support is integrated?</a></p>
+
+Add the following in 'Latest Posts':
+
+<h4>Latest Posts</h4>
+<div class="hline"></div>
+<p><a href="single-post.html">Our new site is live now.</a></p>
+<p><a href="single-post.html">Retina ready is not an option.</a></p>
+<p><a href="single-post.html">Bootstrap 3 framework is the best.</a></p>
+<p><a href="single-post.html">You need this theme, buy it now.</a></p>
+<p><a href="single-post.html">This theme is what you need.</a></p>
+
+Add the following in 'Content':
+
+<h3>Show your work with this beautiful theme</h3>
+<h1>Silverstripe Bootstrap Theme.</h1>
+<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+<h5>More Lorem Ipsum added here too.</h5>
+
+
+Click on 'Attachments' > 
+
+'Home Intro Img" - Choose image file 'browser.png' - \themes\solid-silver\img
 
 ```
