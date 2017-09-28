@@ -339,7 +339,7 @@ Go to the admin page: http://localhost/yoursite/admin to access CMS.
 
 Select 'Home page' > Click on 'Settings' > Select 'Home Page" from 'Page type' dropdown list.
 
-Click on 'Content' > Change 'Page name' to 'Home' >
+Click on 'Content' > Change 'Page name' to 'Home' > Change 'URL Segment' to 'home'
 
 Add the following in 'Services1':
 
@@ -395,10 +395,14 @@ Add the following in 'Content':
 <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
 <h5>More Lorem Ipsum added here too.</h5>
 
+Click on 'Save & Publish'
+
 
 Click on 'Attachments' > 
 
-'Home Intro Img' - Choose image file 'browser.png' - /themes/solid-silver/img/browser.png 
+'Home Intro Img' - Choose image file 'browser.png' - /themes/solid-silver/img/browser.png
+
+Click on 'Save & Publish'
 
 FYI: 
 
@@ -413,7 +417,7 @@ FYI:
 
 Select 'About page' > Click on 'Settings' > Select 'About Page" from 'Page type' dropdown list.
 
-Click on 'Content' > Change 'Page name' to 'About' >
+Click on 'Content' > Change 'Page name' to 'About' > Change 'URL Segment' to 'about-us'
 
 Add the following in 'More About':
 
@@ -459,6 +463,8 @@ Add the following in 'Content':
 
 <p>You can fill this page out with your own content, or delete it and create your own pages.</p>
 
+Click on 'Save & Publish'
+
 
 Click on 'Attachments' > 
 
@@ -467,5 +473,89 @@ Click on 'Attachments' >
 'Team Photo2' - Choose image file 'browser.png' - /themes/solid-silver/img/team02.jpg
 'Team Photo3' - Choose image file 'browser.png' - /themes/solid-silver/img/team03.jpg
 'Team Photo4' - Choose image file 'browser.png' - /themes/solid-silver/img/team04.jpg
+
+Click on 'Save & Publish'
+
+```
+
+# Setup 'Portfolio Page' on CMS : 
+
+```
+Click 'Add New' on the 'Pages' (Top left on CMS window) section > Select 'TUnder another page" from 'Choose where to create this page' list > Select 'Portfolio Page" from 'Choose page type' list > Click on the create button.
+
+Click on 'Content' > Change 'Page name' to 'Portfolio' > Change 'URL Segment' to 'portfolio-page'
+
+Add the following in 'Content':
+
+<h2>We create awesome designs to standout your site or product. Check some of our latest works.</h2>
+
+Click on 'Save & Publish'
+
+```
+
+# Setup 'Portfolio Item Pages' on CMS : 
+
+```
+Click 'Add New' on the 'Pages' (Top left on CMS window) section > Select 'Top level" from 'Choose where to create this page' list & select 'Portfolio"> Select 'Portfolio Item" from 'Portfolio Item' list > Click on the create button.
+
+Click on 'Content' > Change 'Page name' to 'Web Design' > Change 'URL Segment' to 'web-item1'
+
+Add the following in 'Your project name':
+
+<h4>Project Name</h4>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+Add the following in 'Proposal':
+
+<h4>Our Proposal</h4>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+Add the following in 'Project detail':
+
+<h4>Project Details</h4>
+
+<div class="hline"></div>
+<p><b>Date: </b> July, 2017</p>
+<p><b>Author: </b>Dieter Fourie</p>
+<p><b>Categories: </b> Web Design, Theme, Silverstripe</p>
+<p><b>Tagged: </b> Flat, UI, Development</p>
+<p><b>Client: </b>Black Tie</p>
+<p><b>Website: </b> <a href="http://blacktie.co/2014/05/solid-multipurpose-theme/" target="_blank">Solid Theme</a></p>
+
+Click on 'Save & Publish'
+
+Click on 'Attachments' > 
+
+'Project Photo' - Choose image file 'portfolio-3.jpg' - /themes/solid-silver/img/portfolio/portfolio-3.jpg
+'Project Slider1' - Choose image file 'single2.jpg' - /themes/solid-silver/img/portfolio/single01.jpg 
+'Project Slider2' - Choose image file 'single02.jpg ' - /themes/solid-silver/img/portfolio/single02.jpg 
+'Project Slider3' - Choose image file 'single03.jpg ' - /themes/solid-silver/img/portfolio/single03.jpg  
+
+Click on 'Save & Publish'
+
+FYI: 
+
+'LATEST WORKS' will be populated when you add portfolio pages.
+
+
+```
+
+# Duplicate 'Portfolio Item Pages' on CMS : 
+
+```
+Right click on a subpage under the 'portfolio' page you want to duplicate > Select "Duplicate' > 'This page only'.
+
+Change new page 'URL Segment' to a page name that makes sense like "web-item2" etc.
+
+Click on 'Save & Publish'
+
+Do this for each portfolio category - Web Design, Logo Design, Graphic Design, Brand Design & Prin Design (You can change this to your liking)
+
+FYI:
+
+For this template 5 pages per portfolio section is optimal for the grid gallery to have equal rows. 
+
 
 ```
