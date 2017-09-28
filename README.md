@@ -400,4 +400,10 @@ Click on 'Attachments' >
 
 'Home Intro Img" - Choose image file 'browser.png' - \themes\solid-silver\img
 
+FYI: 
+
+'LATEST WORKS' will be populated when you add portfolio pages.
+
+
+
 ```
