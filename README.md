@@ -325,7 +325,7 @@ class ContactPage_Controller extends Page_Controller {
 }
 ```
 
-# Build Data Base: 
+# Build Database: 
 
 ```
 http://localhost/ss_solid1/dev/build/?flush
