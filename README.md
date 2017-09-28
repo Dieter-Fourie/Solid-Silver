@@ -332,7 +332,7 @@ Add this in your browser address bar: http://localhost/yoursite/dev/build/?flush
 
 ```
 
-# Setup Home Page on CMS : 
+# Setup 'Home Page' on CMS : 
 
 ```
 Go to the admin page: http://localhost/yoursite/admin to access CMS.
@@ -398,12 +398,74 @@ Add the following in 'Content':
 
 Click on 'Attachments' > 
 
-'Home Intro Img" - Choose image file 'browser.png' - \themes\solid-silver\img
+'Home Intro Img' - Choose image file 'browser.png' - /themes/solid-silver/img/browser.png 
 
 FYI: 
 
 'LATEST WORKS' will be populated when you add portfolio pages.
 
 
+```
+
+# Setup 'About Page' on CMS : 
+
+```
+
+Select 'About page' > Click on 'Settings' > Select 'About Page" from 'Page type' dropdown list.
+
+Click on 'Content' > Change 'Page name' to 'About' >
+
+Add the following in 'More About':
+
+<h4>More About Our Agency.</h4>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+
+<p><br><a href="contact-us" class="btn btn-theme">Contact Us</a></p>
+
+Add the following in 'Team Info 1':
+
+<h4>Mark Webber</h4>
+<h5 class="ctitle">CEO</h5>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+Add the following in 'Team Info 2':
+
+<h4>Paul Jameson</h4>
+<h5 class="ctitle">LEAD DESIGNER</h5>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>        
+
+Add the following in 'Team Info 3':
+
+<h4>Laura Sommers</h4>
+<h5 class="ctitle">LEAD DEVELOPER</h5>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+Add the following in 'Team Info 4':
+
+<<h4>Martin Blunt</h4>
+<h5 class="ctitle">MARKETING</h5>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+Add the following in 'Testimonial':
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+Add the following in 'Content':
+
+<p>You can fill this page out with your own content, or delete it and create your own pages.</p>
+
+
+Click on 'Attachments' > 
+
+'About Photo' - Choose image file 'browser.png' - /themes/solid-silver/img/agency.jpg 
+'Team Photo1' - Choose image file 'browser.png' - /themes/solid-silver/img/team01.jpg
+'Team Photo2' - Choose image file 'browser.png' - /themes/solid-silver/img/team02.jpg
+'Team Photo3' - Choose image file 'browser.png' - /themes/solid-silver/img/team03.jpg
+'Team Photo4' - Choose image file 'browser.png' - /themes/solid-silver/img/team04.jpg
 
 ```
