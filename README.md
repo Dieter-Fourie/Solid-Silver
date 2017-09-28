@@ -404,9 +404,7 @@ Click on 'Attachments' >
 
 Click on 'Save & Publish'
 
-FYI: 
-
-'LATEST WORKS' will be populated when you add portfolio pages.
+FYI: 'LATEST WORKS' will be populated when you add portfolio pages.
 
 
 ```
@@ -535,9 +533,7 @@ Click on 'Attachments' >
 
 Click on 'Save & Publish'
 
-FYI: 
-
-'LATEST WORKS' will be populated when you add portfolio pages.
+FYI: 'LATEST WORKS' will be populated when you add portfolio pages.
 
 
 ```
@@ -553,9 +549,80 @@ Click on 'Save & Publish'
 
 Do this for each portfolio category - Web Design, Logo Design, Graphic Design, Brand Design & Prin Design (You can change this to your liking)
 
-FYI:
+FYI: For this template 5 pages per portfolio section are optimal for the grid gallery to have equal rows. 
 
-For this template 5 pages per portfolio section is optimal for the grid gallery to have equal rows. 
+```
 
+# Setup 'Contact Page' on CMS : 
+
+```
+
+Select 'Contact Page' > Click on 'Settings' > Select 'Contact Page" from 'Page type' dropdown list.
+
+Click on 'Content' > Change 'Page name' to 'Contact Page' > Change 'URL Segment' to 'contact-us'
+
+Add the following in 'Contact Form Intro':
+
+<h4>Just Get In Touch!</h4>
+<div class="hline"></div>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+Add the following in 'Our Address':
+
+<h4>Our Address</h4>
+<div class="hline"></div>
+<p>
+Some Ave, 987,<br>
+23890, New York,<br>
+United States.<br></p>
+<p>
+Email: hello@solidtheme.com<br>
+Tel: +34 8493-4893
+</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+Add the following in 'Content':
+
+<p>You can fill this page out with your own content, or delete it and create your own pages.</p>
+
+Click on 'Save & Publish'
+
+```
+
+# Setup 'Page not found Page' on CMS : 
+
+```
+
+Select 'Page not found Page'.
+
+Add the following in 'Content':
+
+<h4><img class="center" title="" src="assets/img/home/portfolio-01.jpg" alt="404" width="600" height="450" /></h4>
+
+<h4><a></a>404 Error</h4>
+<p>Sorry, it seems you were trying to access a page that doesn't exist.</p>
+<p>Please check the spelling of the URL you were trying to access and try again.</p>
+
+FYI: You might need to upload the image that you want to use in this page first.
+
+Click on 'Save & Publish'
+
+```
+
+# Setup 'Page not found Page' on CMS : 
+
+```
+
+Select 'Server error Page'.
+
+Add the following in 'Content':
+
+<h4><img class="center" title="" src="assets/img/home/portfolio-01.jpg" alt="404" width="600" height="450" /></h4>
+<h4>Server Error</h4>
+<p>Sorry, there was a problem with handling your request.</p>
+
+FYI: You might need to upload the image that you want to use in this page first.
+
+Click on 'Save & Publish'
 
 ```
